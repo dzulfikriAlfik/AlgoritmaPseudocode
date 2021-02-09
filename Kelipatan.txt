@@ -1,0 +1,20 @@
+Program Kelipatan
+Kamnus
+   bil : integer
+
+Algoritma
+   input(bil)
+
+   if(bil mod 3 == 0) then
+      if(bil mod 5 == 0) then
+         print(bil, "adalah kelipatan 3 dan 5")
+      else
+         print(bil, "adalah kelipatan 3")
+      endif
+   else if (bil mod 5 == 0) then
+      print(bil, "adalah kelipatan 5")
+   else
+      print(bil, "bukan kelipatan 3 dan 5")
+   endif
+
+Endprogram

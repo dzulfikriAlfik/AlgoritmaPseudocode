@@ -1,0 +1,19 @@
+Program FindMax
+Kamus
+   nBil, Max, counter : integer
+
+Algoritma
+   Max <- 0
+   counter <- 1
+   input(nBil)
+
+   while (counter <= nBil) do
+      if (nBil > Max) then
+         Max <- nBil
+      else 
+         Max <- Max
+      endif
+      counter <- counter + 1
+   endwhile
+
+EndProgram
