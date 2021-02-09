@@ -1,0 +1,28 @@
+Program Sort
+Kamus
+   min, i, j, temp : integer
+   type arr[1..n] of integer
+
+Algoritma
+   i <- 0
+   while(i < n) do
+      min <- i
+      j <- i + 1
+      while(j < n) do 
+         {* Find Min *}
+         if (data[j] < data[min]) then
+            min <- j
+         else 
+            min <- i
+         endif
+      j <- j + 1
+      endwhile
+   {* Swap Position *}
+   temp <- data[min]
+   data[min] <- data[i]
+   data[i] <- temp
+   
+   i <- i + 1
+   endwhile
+
+Endprogram

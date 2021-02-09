@@ -1,0 +1,17 @@
+Program Median
+Kamus
+   type A = arr[1..n] of integer
+   median, middle : real
+
+Algoritma
+   sort(A)
+   if (n mod 2 != 0) {
+      middle <- (n div 2) + 1
+      median <- A[middle]
+   } else {
+      middle <- n div 2
+      median <- (A[middle] + A[middle + 1]) / 2
+   }
+
+
+Endprogram
