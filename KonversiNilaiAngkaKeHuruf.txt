@@ -1,0 +1,29 @@
+Pseudocode Program Konversi Angka ke Nilai Huruf
+ 
+program konversi;
+ 
+deklarasi
+    nilaiAngka : integer;
+    nilaiHuruf : char;
+ 
+algoritma
+    input(NilaiAngka);
+    
+    if nilaiAngka > 80 then
+   begin
+       nilaiHuruf = 'A';
+   end;
+    else if nilaiAngka > 70 and nilaiAngka <= 80 then
+   begin
+       nilaiHuruf = 'B';
+   end;
+    else if nilaiAngka > 60 and nilaiAngka <= 70 then
+    begin
+       nilaiHuruf = 'C';
+   end;
+    else if nilaiAngka > 50 and nilaiAngka <= 60 then
+   begin
+       nilaiHuruf = 'D';
+   end;
+    else 'Tidak Lulus';
+end algoritma.
